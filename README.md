@@ -59,6 +59,8 @@ The weapon detection model was trained using a custom dataset in YOLO format con
 
 ## File Structure
 
+```
+
 AI-Surveillance-System-Weapon-Detection
 │
 ├── dataset/
