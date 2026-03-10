@@ -9,3 +9,8 @@ dataset/valid/images
 dataset/valid/labels
 dataset/test/images
 dataset/test/labels
+
+dataset/
+Weapon Detection.v1i.yolov8/
+*.pt
+runs/
