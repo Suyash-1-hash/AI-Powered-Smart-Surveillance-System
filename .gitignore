@@ -1,0 +1,11 @@
+runs/
+__pycache__/
+*.pyc
+*.pt
+*.zip
+dataset/train/images
+dataset/train/labels
+dataset/valid/images
+dataset/valid/labels
+dataset/test/images
+dataset/test/labels

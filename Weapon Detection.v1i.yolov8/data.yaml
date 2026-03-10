@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['senjata_api', 'senjata_tajam']
+
+roboflow:
+  workspace: suyashs-workspace-enwdv
+  project: weapon-detection-1cj3j-rit4q
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/suyashs-workspace-enwdv/weapon-detection-1cj3j-rit4q/dataset/1
