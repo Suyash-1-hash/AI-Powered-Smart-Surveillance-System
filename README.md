@@ -55,7 +55,7 @@ The weapon detection model was trained using a custom dataset in YOLO format con
 - Sword
 - Grenade Launcher
 
-```
+
 
 ## File Structure
 
