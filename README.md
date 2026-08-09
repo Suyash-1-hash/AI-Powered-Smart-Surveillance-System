@@ -17,6 +17,12 @@ The system monitors webcam footage, detects motion, identifies weapons, and send
 
 ---
 
+## Output Images (weapon detected)
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/70c9c70d-fbbf-4e9a-a9c3-3c59a519c678" />
+
+---
+
 ## Technologies Used
 
 - Python
