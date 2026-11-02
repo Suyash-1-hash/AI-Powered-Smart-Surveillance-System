@@ -136,7 +136,7 @@ test/labels
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Surveillance-System-Weapon-Detection.git
+git clone https://github.com/Suyash-1-hash/AI-Surveillance-System-Weapon-Detection.git
 cd AI-Surveillance-System-Weapon-Detection
 ```
 
