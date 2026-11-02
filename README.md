@@ -49,6 +49,40 @@ Alert System (Email + Alarm)
 
 ---
 
+ 
+## Results
+ 
+Metrics at the final epoch (50), on the validation set:
+ 
+| Metric | Value |
+|---|---|
+| mAP@50 | **0.770** |
+| mAP@50-95 | 0.498 |
+| Precision | 0.711 |
+| Recall | 0.762 |
+| Best F1 (all classes) | 0.72 at confidence 0.327 |
+ 
+Per class:
+ 
+| Class | AP@50 |
+|---|---|
+| Firearm (`senjata_api`) | 0.934 |
+| Knife (`senjata_tajam`) | 0.606 |
+ 
+![Training curves](metrics/results.png)
+ 
+![Normalized confusion matrix](metrics/confusion_matrix_normalized.png)
+ 
+All curves and raw per-epoch numbers are in [`metrics/`](metrics/).
+ 
+### What the results show
+ 
+- Firearm detection is strong (AP@50 0.93). Knife detection is weaker (0.61): knives are small, thin objects that resemble pens, utensils, and similar items, which produces many false positives.
+- Training and validation losses fall together with no sign of overfitting, but mAP is still rising at epoch 50, so the model is likely undertrained.
+- The validation set is small (roughly 39 firearm and 130 knife instances), so the firearm numbers in particular are noisy.
+- These are validation-set results. They have not yet been confirmed on the held-out test split.
+
+
 ## Dataset
 
 The weapon detection model was trained using a custom dataset in YOLO format containing multiple weapon classes including:
