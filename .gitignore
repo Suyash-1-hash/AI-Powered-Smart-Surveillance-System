@@ -12,5 +12,5 @@ dataset/test/labels
 
 dataset/
 Weapon Detection.v1i.yolov8/
-*.pt
 runs/
+!weights/best.pt
