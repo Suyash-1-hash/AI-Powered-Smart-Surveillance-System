@@ -75,13 +75,6 @@ Per class:
  
 All curves and raw per-epoch numbers are in [`metrics/`](metrics/).
  
-### What the results show
- 
-- Firearm detection is strong (AP@50 0.93). Knife detection is weaker (0.61): knives are small, thin objects that resemble pens, utensils, and similar items, which produces many false positives.
-- Training and validation losses fall together with no sign of overfitting, but mAP is still rising at epoch 50, so the model is likely undertrained.
-- The validation set is small (roughly 39 firearm and 130 knife instances), so the firearm numbers in particular are noisy.
-- These are validation-set results. They have not yet been confirmed on the held-out test split.
-
 
 ## Dataset
 
